@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34B6614B1ECE58E8002DE88A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6614A1ECE58E8002DE88A /* AppDelegate.swift */; };
+		34B6614D1ECE58E8002DE88A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6614C1ECE58E8002DE88A /* ViewController.swift */; };
+		34B661501ECE58E8002DE88A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B6614E1ECE58E8002DE88A /* Main.storyboard */; };
+		34B661521ECE58E8002DE88A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B661511ECE58E8002DE88A /* Assets.xcassets */; };
+		34B661551ECE58E8002DE88A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B661531ECE58E8002DE88A /* LaunchScreen.storyboard */; };
+		34B661601ECE58E8002DE88A /* HackWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6615F1ECE58E8002DE88A /* HackWarsUITests.swift */; };
+		34B6616B1ECE58E8002DE88A /* HackWarsUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6616A1ECE58E8002DE88A /* HackWarsUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34B6615C1ECE58E8002DE88A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B6613F1ECE58E8002DE88A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B661461ECE58E8002DE88A;
+			remoteInfo = HackWarsUI;
+		};
+		34B661671ECE58E8002DE88A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B6613F1ECE58E8002DE88A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B661461ECE58E8002DE88A;
+			remoteInfo = HackWarsUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34B661471ECE58E8002DE88A /* HackWarsUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackWarsUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B6614A1ECE58E8002DE88A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34B6614C1ECE58E8002DE88A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34B6614F1ECE58E8002DE88A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34B661511ECE58E8002DE88A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34B661541ECE58E8002DE88A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34B661561ECE58E8002DE88A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B6615B1ECE58E8002DE88A /* HackWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B6615F1ECE58E8002DE88A /* HackWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackWarsUITests.swift; sourceTree = "<group>"; };
+		34B661611ECE58E8002DE88A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B661661ECE58E8002DE88A /* HackWarsUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackWarsUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B6616A1ECE58E8002DE88A /* HackWarsUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackWarsUIUITests.swift; sourceTree = "<group>"; };
+		34B6616C1ECE58E8002DE88A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34B661441ECE58E8002DE88A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B661581ECE58E8002DE88A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B661631ECE58E8002DE88A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34B6613E1ECE58E8002DE88A = {
+			isa = PBXGroup;
+			children = (
+				34B661491ECE58E8002DE88A /* HackWarsUI */,
+				34B6615E1ECE58E8002DE88A /* HackWarsUITests */,
+				34B661691ECE58E8002DE88A /* HackWarsUIUITests */,
+				34B661481ECE58E8002DE88A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34B661481ECE58E8002DE88A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34B661471ECE58E8002DE88A /* HackWarsUI.app */,
+				34B6615B1ECE58E8002DE88A /* HackWarsUITests.xctest */,
+				34B661661ECE58E8002DE88A /* HackWarsUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34B661491ECE58E8002DE88A /* HackWarsUI */ = {
+			isa = PBXGroup;
+			children = (
+				34B6614A1ECE58E8002DE88A /* AppDelegate.swift */,
+				34B6614C1ECE58E8002DE88A /* ViewController.swift */,
+				34B6614E1ECE58E8002DE88A /* Main.storyboard */,
+				34B661511ECE58E8002DE88A /* Assets.xcassets */,
+				34B661531ECE58E8002DE88A /* LaunchScreen.storyboard */,
+				34B661561ECE58E8002DE88A /* Info.plist */,
+			);
+			path = HackWarsUI;
+			sourceTree = "<group>";
+		};
+		34B6615E1ECE58E8002DE88A /* HackWarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34B6615F1ECE58E8002DE88A /* HackWarsUITests.swift */,
+				34B661611ECE58E8002DE88A /* Info.plist */,
+			);
+			path = HackWarsUITests;
+			sourceTree = "<group>";
+		};
+		34B661691ECE58E8002DE88A /* HackWarsUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34B6616A1ECE58E8002DE88A /* HackWarsUIUITests.swift */,
+				34B6616C1ECE58E8002DE88A /* Info.plist */,
+			);
+			path = HackWarsUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34B661461ECE58E8002DE88A /* HackWarsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B6616F1ECE58E8002DE88A /* Build configuration list for PBXNativeTarget "HackWarsUI" */;
+			buildPhases = (
+				34B661431ECE58E8002DE88A /* Sources */,
+				34B661441ECE58E8002DE88A /* Frameworks */,
+				34B661451ECE58E8002DE88A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackWarsUI;
+			productName = HackWarsUI;
+			productReference = 34B661471ECE58E8002DE88A /* HackWarsUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34B6615A1ECE58E8002DE88A /* HackWarsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B661721ECE58E8002DE88A /* Build configuration list for PBXNativeTarget "HackWarsUITests" */;
+			buildPhases = (
+				34B661571ECE58E8002DE88A /* Sources */,
+				34B661581ECE58E8002DE88A /* Frameworks */,
+				34B661591ECE58E8002DE88A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B6615D1ECE58E8002DE88A /* PBXTargetDependency */,
+			);
+			name = HackWarsUITests;
+			productName = HackWarsUITests;
+			productReference = 34B6615B1ECE58E8002DE88A /* HackWarsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34B661651ECE58E8002DE88A /* HackWarsUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B661751ECE58E8002DE88A /* Build configuration list for PBXNativeTarget "HackWarsUIUITests" */;
+			buildPhases = (
+				34B661621ECE58E8002DE88A /* Sources */,
+				34B661631ECE58E8002DE88A /* Frameworks */,
+				34B661641ECE58E8002DE88A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B661681ECE58E8002DE88A /* PBXTargetDependency */,
+			);
+			name = HackWarsUIUITests;
+			productName = HackWarsUIUITests;
+			productReference = 34B661661ECE58E8002DE88A /* HackWarsUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34B6613F1ECE58E8002DE88A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "John Nguyen";
+				TargetAttributes = {
+					34B661461ECE58E8002DE88A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 56NKQFW6SU;
+						ProvisioningStyle = Automatic;
+					};
+					34B6615A1ECE58E8002DE88A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 56NKQFW6SU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34B661461ECE58E8002DE88A;
+					};
+					34B661651ECE58E8002DE88A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 56NKQFW6SU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34B661461ECE58E8002DE88A;
+					};
+				};
+			};
+			buildConfigurationList = 34B661421ECE58E8002DE88A /* Build configuration list for PBXProject "HackWarsUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34B6613E1ECE58E8002DE88A;
+			productRefGroup = 34B661481ECE58E8002DE88A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34B661461ECE58E8002DE88A /* HackWarsUI */,
+				34B6615A1ECE58E8002DE88A /* HackWarsUITests */,
+				34B661651ECE58E8002DE88A /* HackWarsUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34B661451ECE58E8002DE88A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B661551ECE58E8002DE88A /* LaunchScreen.storyboard in Resources */,
+				34B661521ECE58E8002DE88A /* Assets.xcassets in Resources */,
+				34B661501ECE58E8002DE88A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B661591ECE58E8002DE88A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B661641ECE58E8002DE88A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34B661431ECE58E8002DE88A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B6614D1ECE58E8002DE88A /* ViewController.swift in Sources */,
+				34B6614B1ECE58E8002DE88A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B661571ECE58E8002DE88A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B661601ECE58E8002DE88A /* HackWarsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B661621ECE58E8002DE88A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B6616B1ECE58E8002DE88A /* HackWarsUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34B6615D1ECE58E8002DE88A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B661461ECE58E8002DE88A /* HackWarsUI */;
+			targetProxy = 34B6615C1ECE58E8002DE88A /* PBXContainerItemProxy */;
+		};
+		34B661681ECE58E8002DE88A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B661461ECE58E8002DE88A /* HackWarsUI */;
+			targetProxy = 34B661671ECE58E8002DE88A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34B6614E1ECE58E8002DE88A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B6614F1ECE58E8002DE88A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34B661531ECE58E8002DE88A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B661541ECE58E8002DE88A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34B6616D1ECE58E8002DE88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34B6616E1ECE58E8002DE88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34B661701ECE58E8002DE88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56NKQFW6SU;
+				INFOPLIST_FILE = HackWarsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackwars.HackWarsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		34B661711ECE58E8002DE88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56NKQFW6SU;
+				INFOPLIST_FILE = HackWarsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackwars.HackWarsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		34B661731ECE58E8002DE88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 56NKQFW6SU;
+				INFOPLIST_FILE = HackWarsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackwars.HackWarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackWarsUI.app/HackWarsUI";
+			};
+			name = Debug;
+		};
+		34B661741ECE58E8002DE88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 56NKQFW6SU;
+				INFOPLIST_FILE = HackWarsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackwars.HackWarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackWarsUI.app/HackWarsUI";
+			};
+			name = Release;
+		};
+		34B661761ECE58E8002DE88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 56NKQFW6SU;
+				INFOPLIST_FILE = HackWarsUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackwars.HackWarsUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HackWarsUI;
+			};
+			name = Debug;
+		};
+		34B661771ECE58E8002DE88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 56NKQFW6SU;
+				INFOPLIST_FILE = HackWarsUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackwars.HackWarsUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HackWarsUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34B661421ECE58E8002DE88A /* Build configuration list for PBXProject "HackWarsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B6616D1ECE58E8002DE88A /* Debug */,
+				34B6616E1ECE58E8002DE88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B6616F1ECE58E8002DE88A /* Build configuration list for PBXNativeTarget "HackWarsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B661701ECE58E8002DE88A /* Debug */,
+				34B661711ECE58E8002DE88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34B661721ECE58E8002DE88A /* Build configuration list for PBXNativeTarget "HackWarsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B661731ECE58E8002DE88A /* Debug */,
+				34B661741ECE58E8002DE88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34B661751ECE58E8002DE88A /* Build configuration list for PBXNativeTarget "HackWarsUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B661761ECE58E8002DE88A /* Debug */,
+				34B661771ECE58E8002DE88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34B6613F1ECE58E8002DE88A /* Project object */;
+}
