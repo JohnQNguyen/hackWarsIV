@@ -99,9 +99,7 @@
 			children = (
 				34B6614A1ECE58E8002DE88A /* AppDelegate.swift */,
 				34B6614C1ECE58E8002DE88A /* ViewController.swift */,
-				34B6614E1ECE58E8002DE88A /* Main.storyboard */,
-				34B661511ECE58E8002DE88A /* Assets.xcassets */,
-				34B661531ECE58E8002DE88A /* LaunchScreen.storyboard */,
+				34B661781ECE5981002DE88A /* Interface */,
 				34B661561ECE58E8002DE88A /* Info.plist */,
 			);
 			path = HackWarsUI;
@@ -123,6 +121,16 @@
 				34B6616C1ECE58E8002DE88A /* Info.plist */,
 			);
 			path = HackWarsUIUITests;
+			sourceTree = "<group>";
+		};
+		34B661781ECE5981002DE88A /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				34B6614E1ECE58E8002DE88A /* Main.storyboard */,
+				34B661511ECE58E8002DE88A /* Assets.xcassets */,
+				34B661531ECE58E8002DE88A /* LaunchScreen.storyboard */,
+			);
+			name = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
